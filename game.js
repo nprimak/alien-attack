@@ -67,6 +67,15 @@ function placeSprite(){
 //when user hits fire, begin game
 function beginGame(){
     document.getElementById("fire").addEventListener("click", isValid);
+    window.addEventListener("keydown", keydownHandler, false); 
+    
+}
+
+//run program if user presses "enter" button on keyboard
+function keydownHandler(){
+    if(event.keyCode == 13){
+        isValid();
+    }
     
 }
 
