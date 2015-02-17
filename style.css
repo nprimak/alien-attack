@@ -1,0 +1,115 @@
+body{
+    color: lightblue;
+    font-family: 'VT323';
+    background:black;
+}
+
+#wrapper{
+    margin: 0px auto;
+  height: auto;
+  padding: 15px;
+  border: black;
+  background: -webkit-linear-gradient(#944E8A, #2F0E43); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#944E8A, #2F0E43); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#944E8A, #2F0E43); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#944E8A, #2F0E43); /* Standard syntax */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+}
+
+#canvas{
+    background-image: url(background.png);
+    position:relative;
+    margin: 0 auto;
+    border: 1px solid #63FEFC; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#alien{
+   position:absolute;
+
+    
+}
+
+#bullet{
+    position: absolute;
+    display:none;
+    -webkit-transition: top 2s ease-out 0.5s;
+    -moz-transition: top 2s ease-out 0.5s;
+    transition: top 2s ease-out 0.5s;
+}
+
+
+#ship{
+   position:absolute; 
+    left:180px;
+    -webkit-transition: left 0.8s ease-out 0.1s;
+    -moz-transition: left 0.8s ease-out 0.1s;
+    transition: left 0.8s ease-out 0.1s;
+}
+
+h1, p{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+h1{
+    font-size: 4.5em;
+    padding: 0;
+    padding-bottom: 5px;
+    margin:0;
+    text-shadow: 3px 3px  blue;
+    color: #63FEFC;
+    font-weight: 600;
+}
+
+p{
+ font-size: 1.5em;   
+}
+
+input{
+ background: black;
+    border: 1px solid #63FEFC;
+    width: 120px;
+    height: 40px;
+     border-radius: 15px;
+    color: #63FEFC;
+    padding: 5px;
+    font-size: 1.5em;
+    font-family: 'VT323';
+}
+
+form{
+ font-size: 1.5em;
+    text-align: center;
+}
+
+#shotcount{
+    font-size: 2em;
+}
+
+button{
+ background-color: #63FEFC;
+    color: blue;
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    font-family: 'VT323';
+    border: 2px solid black;
+    text-transform: uppercase;
+     font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+button:hover{
+    background: -webkit-linear-gradient(#01B2E8, #0A377B); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#01B2E8, #0A377B); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#01B2E8, #0A377B); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#01B2E8, #0A377B); /* Standard syntax */
+    color: #63FEFC;
+    
+}

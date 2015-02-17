@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<title>Alien Attack!</title>
+    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+</head>
+<div id="wrapper">
+<h1>Alien Attack!</h1>
+    <div id="canvas"> 
+        <img src="alien.png" id="alien">
+        <img src="ship.png" id="ship">
+        <img src="bullet.png" id="bullet">
+        
+    </div>
+    <p id="output"></p>
+    <p id="shotcount">Shots: 0, Remaining: 10</p>
+    <form>
+    <input type="text" placeholder= "X" name="xpos" id="xpos"> 
+    <input type="text" placeholder= "Y" name="ypos" id="ypos">
+    <button type="button" id="fire">Fire!</button>
+        </form>
+</div>
